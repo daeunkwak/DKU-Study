@@ -1,4 +1,4 @@
-package champion.weapon;
+package championFactory.weapon;
 
 public class ArrowWeapon implements Weapon{
     public String toString(){

@@ -1,9 +1,9 @@
-package champion;
+package championFactory;
 
-public class DealerChampion extends Champion{
+public class MagicianChampion extends Champion{
     ChampionFactory championFactory;
 
-    public DealerChampion(ChampionFactory championFactory){
+    public MagicianChampion(ChampionFactory championFactory){
         this.championFactory = championFactory;
     }
 
@@ -12,5 +12,10 @@ public class DealerChampion extends Champion{
         stamina = championFactory.createStamina();
         garment = championFactory.createGarment();
         weapon = championFactory.createWeapon();
+    }
+
+    @Override
+    public String getDescription() {
+        return null;
     }
 }

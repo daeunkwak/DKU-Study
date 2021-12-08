@@ -1,11 +1,11 @@
-package champion;
+package championFactory;
 
-import champion.garment.ArmorGarment;
-import champion.garment.Garment;
-import champion.stamina.Stamina;
-import champion.stamina.StrongStamina;
-import champion.weapon.ShieldWeapon;
-import champion.weapon.Weapon;
+import championFactory.garment.ArmorGarment;
+import championFactory.garment.Garment;
+import championFactory.stamina.Stamina;
+import championFactory.stamina.StrongStamina;
+import championFactory.weapon.ShieldWeapon;
+import championFactory.weapon.Weapon;
 
 public class TankerChampionFactory implements ChampionFactory{
 

@@ -1,11 +1,11 @@
-package champion;
+package championFactory;
 
-import champion.garment.CapeGarment;
-import champion.garment.Garment;
-import champion.stamina.AverageStamina;
-import champion.stamina.Stamina;
-import champion.weapon.WandWeapon;
-import champion.weapon.Weapon;
+import championFactory.garment.CapeGarment;
+import championFactory.garment.Garment;
+import championFactory.stamina.AverageStamina;
+import championFactory.stamina.Stamina;
+import championFactory.weapon.WandWeapon;
+import championFactory.weapon.Weapon;
 
 public class MagicianChampionFactory implements ChampionFactory{
     @Override

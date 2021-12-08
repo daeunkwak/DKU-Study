@@ -1,4 +1,4 @@
-package champion.stamina;
+package championFactory.stamina;
 
 public class AverageStamina implements Stamina {
     public String toString(){

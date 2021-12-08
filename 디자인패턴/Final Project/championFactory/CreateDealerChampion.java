@@ -1,8 +1,4 @@
-package champion;
-
-import champion.garment.Garment;
-import champion.stamina.Stamina;
-import champion.weapon.Weapon;
+package championFactory;
 
 // *****
 public class CreateDealerChampion {

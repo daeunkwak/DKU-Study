@@ -1,11 +1,11 @@
-package champion;
+package championFactory;
 
-import champion.garment.Garment;
-import champion.garment.SleekGarment;
-import champion.stamina.Stamina;
-import champion.stamina.WeakStamina;
-import champion.weapon.ArrowWeapon;
-import champion.weapon.Weapon;
+import championFactory.garment.Garment;
+import championFactory.garment.SleekGarment;
+import championFactory.stamina.Stamina;
+import championFactory.stamina.WeakStamina;
+import championFactory.weapon.ArrowWeapon;
+import championFactory.weapon.Weapon;
 
 public class DealerChampionFactory implements ChampionFactory{
     @Override

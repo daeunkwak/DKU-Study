@@ -1,4 +1,4 @@
-package champion.stamina;
+package championFactory.stamina;
 
 public class WeakStamina implements Stamina {
     public String toString(){

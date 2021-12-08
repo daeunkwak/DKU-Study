@@ -1,4 +1,4 @@
-package champion.garment;
+package championFactory.garment;
 
 public class CapeGarment implements Garment{
     public String toString(){

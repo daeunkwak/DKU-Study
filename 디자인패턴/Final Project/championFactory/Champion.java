@@ -1,15 +1,15 @@
-package champion;
+package championFactory;
 
-import champion.garment.Garment;
-import champion.stamina.Stamina;
-import champion.weapon.Weapon;
+import championFactory.garment.Garment;
+import championFactory.stamina.Stamina;
+import championFactory.weapon.Weapon;
 
 public abstract class Champion{
     String name;
 
-    Stamina stamina;
-    Garment garment;
-    Weapon weapon;
+    public Stamina stamina;
+    public Garment garment;
+    public Weapon weapon;
 
     // 생성자..
     public Champion(Stamina stamina, Garment garment, Weapon weapon) {
@@ -17,6 +17,14 @@ public abstract class Champion{
         this.garment = garment;
         this.weapon = weapon;
     }
+
+//    void setStamina(String stamina) {
+//        this.stamina = stamina;
+//    }
+//    public void getStamina(){
+//        return this.stamina;
+//    }
+
 
     // 빨간줄 계속생겨서 기본생성자
     protected Champion() {
@@ -30,7 +38,7 @@ public abstract class Champion{
         return name;
     }
 
-   // public abstract String getDescription();
+    public abstract String getDescription();
 }
 
 
